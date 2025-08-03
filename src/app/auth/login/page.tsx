@@ -10,8 +10,6 @@ import {
   Input,
   Button,
   SimpleGrid,
-  useBreakpointValue,
-  Icon,
   FormControl,
   FormLabel,
   useColorModeValue,
@@ -41,7 +39,7 @@ export default function LoginPage() {
             Login to your account
           </Heading>
           <Text color={'gray.500'}>
-            Don't have an account?{" "}
+            Don&apos;t have an account?{" "}
             <Link href="/auth/register" color={'blue.400'}>Register here</Link>
           </Text>
         </Stack>
