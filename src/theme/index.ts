@@ -1,10 +1,10 @@
 // theme/index.ts
 import { extendTheme } from '@chakra-ui/react';
-import { config } from './config';
+import { themeConfig } from './config';
 
 const theme = extendTheme({
-  config,
-  colors: { // <-- correct spelling
+  config: themeConfig,
+  colors: {
     brand: {
       50: '#e3f9f5',
       100: '#c1e8df',
