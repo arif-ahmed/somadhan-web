@@ -7,7 +7,7 @@ import { themeConfig } from '../theme/config'
 
 function getInitialColorMode(cookie: string): 'dark' | 'light' {
   const match = cookie.match(/chakra-ui-color-mode=(dark|light)/)
-  return match?.[1] as 'dark' | 'light' || 'light'
+  return match?.[1] as 'dark' | 'light' || themeConfig.initialColorMode
 }
 
 export default async function RootLayout({
